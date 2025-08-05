@@ -12,7 +12,7 @@ export function sortNumbers(numbers) {
     return numbers;
 }
 
-//using built-in sort function
+//using a built-in sort function
 export function sortNumbers2(numbers) {
     return numbers.sort((a, b) => a - b);
 }
