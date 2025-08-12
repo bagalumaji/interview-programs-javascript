@@ -1,7 +1,5 @@
 import {reverseStringWithoutInbuildFunction} from "./reverse-string-1.js";
 
-const str="sayaji bagal pandharpur";
-
 export function reverseStringWithCondition(str){
     const words = str.split(" ");
     let s1 = '';
@@ -14,5 +12,3 @@ export function reverseStringWithCondition(str){
     }
     return s1;
 }
-
-console.log(reverseStringWithCondition(str));
